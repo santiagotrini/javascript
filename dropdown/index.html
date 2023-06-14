@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dropdown</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li>
+          <a class="dropdown-btn" onclick="showMenu(event)"" href="#">Products</a>
+          <div hidden class="dropdown-menu">
+            <div class="dropdown-content">
+              <a href="#">Houses</a>
+              <a href="#">Cars</a>
+              <a href="#">Animals</a>
+            </div>
+          </div>
+        </li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Location</a></li>
+        <li>
+          <a class="dropdown-btn" onclick="showMenu(event)"" href="#">Links</a>
+          <div hidden class="dropdown-menu">
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </body>
+  <script src="main.js" charset="utf-8"></script>
+</html>

@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  margin: 0;
+  background: black;
+  color: white
+}
+
+nav > ul {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  list-style: none;
+}
+
+.dropdown-menu {
+  position: absolute;
+}
+
+.dropdown-content {
+  padding: 10px;
+  border-radius: 10px;
+  background: white;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+
+a:visited {
+  color: white;
+}
+
+.dropdown-content a {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

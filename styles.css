@@ -1,4 +1,9 @@
+html {
+  margin: 20px;
+}
+
 body {
+  /* margin: 20px; */
   display: flex;
   flex-direction: column;
   margin: 0;

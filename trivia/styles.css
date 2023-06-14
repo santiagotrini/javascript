@@ -1,0 +1,31 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: sans-serif;
+}
+
+button, h1 {
+  font-size: 48px;
+}
+
+button {
+  width: 40%;
+}
+
+.incorrect {
+  border: 1px solid black;
+  color: white;
+  background: firebrick;
+  border-radius: 4px;
+}
+
+.correct {
+  border: 1px solid black;
+  color: white;
+  background: forestgreen;
+  border-radius: 4px;
+}
