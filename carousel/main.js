@@ -1,11 +1,13 @@
 const slides = document.querySelectorAll('.slide');
 const btnNext = document.querySelector('.btn-next');
 const btnPrev = document.querySelector('.btn-prev');
-let current = 0;
+let current = 0;  // la imagen del carousel que estamos viendo
 
-slides.forEach((s, i) => {
-  s.style.transform = `translateX(${i * 100}%)`;
-});
+// poner todas las imagenes en fila
+for (let i = 0; i < slides.length; i++) {
+  slides[i].style.transform = `translateX(${i * 100}%)`;
+}
+
 
 btnNext.addEventListener('click', () => {
   if (current === slides.length - 1) {
@@ -13,9 +15,9 @@ btnNext.addEventListener('click', () => {
   } else {
     current++;
   }
-  slides.forEach((s, i) => {
-    s.style.transform = `translateX(${100 * (i - current)}%)`;
-  });
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.transform = `translateX(${100 * (i - current)}%)`;
+  }
 });
 
 btnPrev.addEventListener('click', () => {
@@ -24,7 +26,7 @@ btnPrev.addEventListener('click', () => {
   } else {
     current--;
   }
-  slides.forEach((s, i) => {
-    s.style.transform = `translateX(${100 * (i - current)}%)`;
-  });
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.transform = `translateX(${100 * (i - current)}%)`;
+  }
 });

@@ -1,0 +1,22 @@
+/* html {
+  height: 100%;
+} */
+
+button:hover, button {
+  transition: all 0.5s;
+  color: white;
+  background: forestgreen;
+  border: 1px solid forestgreen;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+
+body {
+  /* margin: 0; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-decoration: line-through; */
+}
