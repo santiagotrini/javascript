@@ -6,7 +6,23 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <button class="btn">Click me</button>
+    <pre class="listing">
+      function move() {
+        let s = Math.random() + 0.25;
+        let d = Math.floor(Math.random() * 720) - 360;
+        let r = Math.floor(Math.random() * 256);
+        let g = Math.floor(Math.random() * 256);
+        let b = Math.floor(Math.random() * 256);
+        document.querySelector('.box').style.transform = `rotate(${d}deg) scale(${s})`;
+        document.querySelector('.box').style.background = `rgb(${r},${g},${b})`
+        document.querySelector('.box').textContent = `#${r.toString(16)}${g.toString(16)}${b.toString(16)}`
+      }
+
+      setInterval(move, 2000);
+    </pre>
+    <div class="box">
+
+    </div>
   </body>
   <script src="main.js" charset="utf-8"></script>
 </html>

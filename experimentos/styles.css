@@ -1,22 +1,28 @@
-/* html {
-  height: 100%;
-} */
-
-button:hover, button {
-  transition: all 0.5s;
-  color: white;
-  background: forestgreen;
-  border: 1px solid forestgreen;
-  border-radius: 50%;
-  padding: 20px;
-}
-
-
 body {
-  /* margin: 0; */
-  height: 100vh;
+  min-height: 100vh;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  /* text-decoration: line-through; */
+}
+
+.listing {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 24px;
+  transition: all 0.2s;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-family: sans-serif;
+  color: white;
+  width: 400px;
+  height: 400px;
+  background: forestgreen;
+  transition: all 1s;
 }

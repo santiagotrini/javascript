@@ -1,0 +1,14 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  transition: all 0.5s;
+  height: 100px;
+  width: 100px;
+  padding: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
