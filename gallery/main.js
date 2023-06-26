@@ -1,13 +1,14 @@
 function buildGallery(photos) {
   for (photo of photos) {
     let div = document.createElement('div');
+    div.classList.add('photo');
     let img = document.createElement('img');
     let p = document.createElement('p');
     p.textContent = photo.title;
     img.src = photo.thumbnailUrl;
     div.append(img);
     div.append(p);
-    document.body.append(div);
+    document.querySelector('.container').append(div);
   }
 }
 

@@ -5,8 +5,10 @@ html {
 body {
   /* margin: 20px; */
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 0;
+  flex-wrap: wrap;
+  align-content: flex-start;
   font-family: sans-serif;
   min-height: 100vh;
   justify-content: center;

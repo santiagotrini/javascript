@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  font-family: sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.res-body {
+  width: 400px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.res-band-1 {
+  width: 20px;
+  height: 100px;
+  border: 1px solid black;
+  background: black;
+}
+
+.res-band-2 {
+  width: 20px;
+  height: 100px;
+  border: 1px solid black;
+  background: black;
+}
+
+.res-band-3 {
+  width: 20px;
+  height: 100px;
+  border: 1px solid black;
+  background: black;
+}
