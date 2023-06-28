@@ -7,13 +7,20 @@ body {
   min-height: 100vh;
 }
 
+h1 {
+  margin: 10px;
+}
 
+input {
+  margin-bottom: 10px; 
+}
 
 .row {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  padding: 0;
   align-content: flex-start;
 }
 
@@ -30,7 +37,7 @@ body {
 }
 
 .mal-pero-no-tan-mal {
-  background: #d4ca15;
+  background: gold;
   color: white;
 }
 
