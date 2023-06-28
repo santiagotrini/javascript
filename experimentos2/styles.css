@@ -1,0 +1,34 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body > h1 {
+  font-size: 48px;
+  font-family: sans-serif;
+}
+
+.listing {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  font-size: 24px;
+  transition: all 0.2s;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-family: sans-serif;
+  color: white;
+  width: 400px;
+  height: 400px;
+  background: forestgreen;
+  /* transition: all 1s; */
+}

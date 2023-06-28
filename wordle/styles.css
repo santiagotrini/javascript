@@ -2,7 +2,39 @@ body {
   display: flex;
   font-family: sans-serif;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   min-height: 100vh;
+}
+
+
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-content: flex-start;
+}
+
+.letter {
+  border: 1px solid black;
+  background: #f0f0f0;
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.mal-pero-no-tan-mal {
+  background: #d4ca15;
+  color: white;
+}
+
+.right {
+  background: forestgreen;
+  color: white;
 }
