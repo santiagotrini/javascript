@@ -6,3 +6,12 @@ body {
   align-items: center;
   min-height: 100vh;
 }
+
+input {
+  font-size: 2em;
+}
+
+#result {
+  font-family: monospace;
+  font-size: 3em;
+}
